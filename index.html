@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Website Title -->
+    <title>Shyam Sundar Vashishtha | Web Developer</title>
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font-Awesome -->
+    <link
+      href="assets/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <!-- Lightbox -->
+    <link href="assets/lightbox/css/lightbox.css" rel="stylesheet" />
+    <!-- Text Rotator-->
+    <link href="assets/textrotator/simpletextrotator.css" rel="stylesheet" />
+    <!-- FlexSlider -->
+    <link href="assets/flexslider/flexslider.css" rel="stylesheet" />
+    <!-- Theme Style -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Animations -->
+    <link href="css/animate.css" rel="stylesheet" />
+    <!-- Custom Favicon -->
+    <link href="6.jpg" rel="shortcut icon" type="image/x-icon" />
+
+    <style>
+      .name {
+        background: lighten(brown, 5%);
+        font-family: "Lobster";
+        text-shadow: 4px 3px 0px rgb(109, 109, 109),
+          9px 8px 0px rgba(0, 0, 0, 0.15);
+      }
+
+      .btn,
+      .btn::before,
+      .btn .fab {
+        transition: all 1s;
+        transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+      }
+      i {
+        color: rgb(0, 0, 0);
+      }
+      .btn::before {
+        top: 90%;
+        left: -10%;
+      }
+
+      .btn .fa {
+        transform: scale(0.8);
+      }
+      .btn.instagram::before {
+        background-color: #ec3646;
+      }
+
+      .btn.linkedin::before {
+        background-color: #24b3bd;
+      }
+      .btn.facebook::before {
+        background-color: rgb(56, 56, 241);
+      }
+      .btn.github::before {
+        background-color: #1b1616;
+      }
+
+      .btn:focus::before,
+      .btn:hover::before {
+        top: -10%;
+        left: -10%;
+      }
+      .btn:focus .fa,
+      .btn:hover .fa {
+        color: rgb(250, 124, 7);
+        transform: scale(1);
+      }
+      .social {
+        height: 90px;
+        margin: auto;
+        font-size: 0;
+        text-align: center;
+        position: relative;
+      }
+      .social .btn .fa {
+        font-size: 50px;
+        vertical-align: middle;
+      }
+      .social .btn {
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        margin: 0 10px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 12px 5px 20px 0px #242323;
+        opacity: 0.99;
+      }
+      .social .btn::before {
+        content: "";
+        width: 120%;
+        height: 5%;
+        position: absolute;
+        margin: 5px;
+      }
+
+      .tools {
+        display: inline-flex;
+        align-content: center;
+      }
+    </style>
+  </head>
+  <body id="top">
+    <!-- ****************************** Preloader ************************** -->
+    <div id="preloader"></div>
+    <header id="home">
+      <!-- creative menu -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="menu-wrap">
+            <nav class="menu">
+              <!-- Menu Links -->
+              <div class="icon-list">
+                <a href="index.html#home"
+                  ><i class="fa fa-fw fa-home"></i><span>Home</span></a
+                >
+                <a href="index.html#about"
+                  ><i class="fa fa-fw fa-quote-left"></i><span>About</span></a
+                >
+                <a href="index.html#service"
+                  ><i class="fa fa-fw fa-globe"></i><span>Skills</span></a
+                >
+                <a href="index.html#Projects"
+                  ><i class="fa fa-fw fa-picture-o"></i><span>Projects</span></a
+                >
+                <a href="index.html#blog"
+                  ><i class="fa fa-fw fa-rss"></i><span>Blog</span></a
+                >
+                <a href="index.html#contact"
+                  ><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a
+                >
+              </div>
+            </nav>
+          </div>
+          <button class="menu-button" id="open-button"></button>
+        </div>
+      </div>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-right navicon">
+              <a id="nav-toggle" class="nav_slide_button" href="index.html#"
+                ><span></span
+              ></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 inner">
+              <h1 class="animated fadeInDown name">
+                S<span style="color: #a1f533">h</span>ya<span
+                  style="color: #e07543"
+                  >m</span
+                ><br />
+                S<span style="color: #e07543">u</span>nd<span
+                  style="color: #3f9ff8"
+                  >a</span
+                ><span style="color: #83f83f">r</span><br />
+                V<span style="color: #a1f533">a</span>sh<span
+                  style="color: #e07543"
+                  >i</span
+                >
+                S<span style="color: #e07543">h</span>th<span
+                  style="color: #3f9ff8"
+                  >a</span
+                ><br />
+              </h1>
+              <h3 class="animated fadeInUp delay-05s">
+                <span class="rotate"
+                  >Web Developer,Software Developer,Full-Stack Developer</span
+                >
+              </h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+              <a href="index.html#about" class="scrollto wow fadeInUp delay-5s">
+                <p>SEE MORE</p>
+                <p class="scrollto--arrow">
+                  <img src="img/scroll-down.png" alt="scroll down arrow" />
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="intro text-center section-padding color-bg" id="about">
+      <div class="container">
+        <!-- WELCOME TEXT -->
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 wp1">
+            <h1 class="arrow">Who I am ? <span>what I am</span> ?</h1>
+            <p>
+              Hey! This is Shyam (<a
+                href="https://www.instagram.com/its_shyam640/"
+                >@its_shyam640</a
+              >) and I'm currently pursuing my B.Tech in computer science from
+              <a href="https://www.lpu.in/">LPU</a> . I am a detail-oriented
+              person and can juggle between tasks. I love to read about new
+              techs and technological books in my spare time. I'm also a part of
+              the college student organisation
+              <a href="https://noobarmy.org/">NoobArmy</a> as an frontend
+              developer and content writer. I did a ___________ internship at
+              __________ , and I realised that the field quite made me learn
+              many things. I have always wanted to work with a startup owing to
+              the learning opportunities it offers, and I believe I can bring my
+              skills on the table for my future positions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features text-center section-padding" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="arrow">Skills I have !</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skills">
+              <div class="col-md-4 wp2 item">
+                <div class="icon">
+                  <img src="img/cplusplus.png" />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-02s">
+                <div class="icon">
+                  <img src="img/javascript.png" />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-04s">
+                <div class="icon">
+                  <img src="img/html.png" />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-06s">
+                <div class="icon">
+                  <img src="img/css.png" />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-08s">
+                <div class="icon">
+                  <img src="img/java.png" />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-10s">
+                <div class="icon">
+                  <img src=" " />
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="arrow">Frameworks and databases I know !</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skills">
+              <div class="col-md-4 wp2 item">
+                <div class="icon">
+                  <img src="img/react.png" />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-02s">
+                <div class="icon">
+                  <img src="img/nodejs.png" />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-04s">
+                <div class="icon">
+                  <img src=" " />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-06s">
+                <div class="icon">
+                  <img src="img/firebase.png" />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-08s">
+                <div class="icon">
+                  <img src=" " />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-10s">
+                <div class="icon">
+                  <img src=" " />
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="arrow">Tools I'm comfortable with !</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skills" style="display: flexbox;">
+              <div class="col-md-4 wp2 item">
+                <div class="icon">
+                  <img src="img/android-studio.png" />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-04s">
+                <div class="icon">
+                  <img src="img/vscode.png" />
+                </div>
+              </div>
+              <div class="col-md-4 wp2 item delay-08s">
+                <div class="icon">
+                  <img src=" " />
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid">
+      <!-- About 1 -->
+      <div class="row color-bg">
+        <div class="col-md-6 nopadding features-intro-img">
+          <div class="about-image major-project1"></div>
+          <!-- about image 1 -->
+        </div>
+        <div class="col-md-6 about-text">
+          <h6>Task Managing Website</h6>
+          <!-- headline-->
+          <p>
+            This webpage is an part of this present website . This webpage will
+            keep track of your tasks and helpful for you to manage your notes.
+            This is an very easy way of managing all your tasks.
+            <br />
+            To experience its real time working
+            <a href="https://shyam640.github.io/">click here</a>.
+          </p>
+          <br />
+          <a
+            href="https://github.com/shyam640/shyam640.github.io" target="_blank"
+            class="weight-outline-btn"
+            >Get Source Code</a
+          >
+        </div>
+      </div>
+      <!-- About 2 -->
+      <div class="row">
+        <div class="col-md-6 about-text">
+          <h6>JavaScript Learning</h6>
+          <p>
+            This repository on github is created for the beginners to get
+            familiar with all the basics and advanced topics in javascript. This
+            repository consist of mostly all common codes used in js. All the
+            topics are explained so clearly with examples and codes and you can
+            experience practical experience of js thourgh this repository.
+          </p>
+          <br />
+          <a
+            href="https://github.com/shyam640/JSLearning" target="_blank"
+            class="weight-outline-btn"
+            >Read more</a
+          >
+        </div>
+        <div class="col-md-6 nopadding features-intro-img">
+          <div class="about-image major-project2"></div>
+        </div>
+      </div>
+      <!-- About 3 -->
+      <div class="row color-bg">
+        <div class="col-md-6 nopadding features-intro-img">
+          <div class="about-image major-project3"></div>
+          <!-- about image 3 -->
+        </div>
+        <div class="col-md-6 about-text">
+          <h6>Coming Soon....</h6>
+          <!-- Headline-->
+          <p>This Project will be added soon !</p>
+          <br />
+          <a href="index.html#team" target="_blank" class="weight-outline-btn">Read more</a>
+        </div>
+      </div>
+    </div>
+    <!-- ==========================
+        ABOUT SECTION END
+        =========================== -->
+
+    <!-- ==========================
+        Projects SECTION
+    =========================== -->
+    <section class="swag text-center" id="Projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="arrow">More <span>Projects</span></h1>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row row-offset-0">
+        <!-- Projects ITEM 1 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="overlay-effect effects clearfix">
+            <div class="img">
+              <a
+                href="img/noprojectmobile.png"
+                data-lightbox="project"
+                title="Project One - This is project 1"
+                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- Projects ITEM END -->
+
+        <!-- Projects ITEM 2 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="overlay-effect effects clearfix">
+            <div class="img">
+              <a
+                href="img/noprojectmobile.png"
+                data-lightbox="project"
+                title="Project Two - This is project two"
+                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- Projects ITEM END -->
+
+        <!-- Projects ITEM 3 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="overlay-effect effects clearfix">
+            <div class="img">
+              <a
+                href="img/noprojectmobile.png"
+                data-lightbox="project"
+                title="Project Three - This is project three"
+                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- Projects ITEM END -->
+
+        <!-- Projects ITEM 4 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="overlay-effect effects clearfix">
+            <div class="img">
+              <a
+                href="img/noprojectmobile.png"
+                data-lightbox="project"
+                title="Project Four - This is project 4"
+                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- Projects ITEM END -->
+
+        <!-- Projects ITEM 5 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="overlay-effect effects clearfix">
+            <div class="img">
+              <a
+                href="img/noprojectmobile.png"
+                data-lightbox="project"
+                title="Project Five - This is project 5"
+                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- Projects ITEM END -->
+
+        <!-- Projects ITEM 6 -->
+        <div class="col-md-3 col-sm-3">
+          <div class="overlay-effect effects clearfix">
+            <div class="img">
+              <a
+                href="img/noprojectmobile.png"
+                data-lightbox="project"
+                title="Project Six - This is project six"
+                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- Projects ITEM END -->
+
+        <!-- Projects ITEM 7 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="overlay-effect effects clearfix">
+            <div class="img">
+              <a
+                href="img/noprojectmobile.png"
+                data-lightbox="project"
+                title="Project Seven - This is project seven"
+                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- Projects ITEM END -->
+
+        <!-- Projects ITEM 8 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="overlay-effect effects clearfix">
+            <div class="img">
+              <a
+                href="img/noprojectmobile.png"
+                data-lightbox="project"
+                title="Project Eight - This is project eight"
+                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/row-->
+    </div>
+    <!--/.container-->
+    <!-- ==========================
+        Projects SECTION END
+        =========================== -->
+
+    <!-- ==========================
+        CUSTOM SPACER
+        =========================== -->
+    <div class="spacer-cta text-center">
+      <div class="container">
+        <div class="row">
+          <span class="col-md-12">
+            <a href="index.html#contact" class="outline-btn">hire shyam</a>
+            <a href="https://drive.google.com/drive/folders/1z6U5co6b3yHJWyH4i1VCiCTK_8FlGGHV?usp=sharing" target="_blank" class="outline-btn">Download Resume</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- ==========================
+        CUSTOM SPACER END
+        =========================== -->
+
+    <!-- ==========================
+        BLOG SECTION 
+        =========================== -->
+    <section class="text-center section-padding" id="blog">
+      <div class="container">
+        <!-- Headline -->
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="arrow">My <span>little</span> blogs</h1>
+          </div>
+        </div>
+        <br /><br />
+
+        <!-- Blog Slider -->
+        <div class="row">
+          <div id="blogSlider">
+            <ul class="slides">
+              <li>
+                <!-- Blog Entry 1 -->
+                <div class="col-md-4 wp4">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img
+                        src="img/noblog.png"
+                        class="grayscale"
+                        alt="Blog Item"
+                      /><!-- Blog Image -->
+                    </div>
+                  </div>
+                  <br />
+                  <h2>Blog 1</h2>
+                  <!-- Headline -->
+                  <p>This is blog1</p>
+                  <!-- Description-->
+                </div>
+                <!-- Blog Entry 2 -->
+                <div class="col-md-4 wp4 delay-05s">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img
+                        src="img/noblog.png"
+                        class="grayscale"
+                        alt="Blog Item"
+                      /><!-- Blog Image -->
+                    </div>
+                  </div>
+                  <br />
+                  <h2>Blog 2</h2>
+                  <!-- Headline -->
+                  <p>This is blog 2.</p>
+                  <!-- Description -->
+                </div>
+                <!-- Blog Entry 3 -->
+                <div class="col-md-4 wp4 delay-1s">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img
+                        src="img/noblog.png"
+                        class="grayscale"
+                        alt="Blog Item"
+                      /><!-- Blog Image -->
+                    </div>
+                  </div>
+                  <br />
+                  <h2>Blog 3</h2>
+                  <!-- Headline -->
+                  <p>This is blog 3.</p>
+                  <!-- Description-->
+                </div>
+              </li>
+              <li>
+                <!-- Blog Entry 4 -->
+                <div class="col-md-4 wp4">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img
+                        src="img/noblog.png"
+                        class="grayscale"
+                        alt="Blog Item"
+                      /><!-- Blog Image -->
+                    </div>
+                  </div>
+                  <br />
+                  <h2>Blog 4</h2>
+                  <!-- Headline -->
+                  <p>This is blog 4</p>
+                  <!-- Description -->
+                </div>
+                <!-- Blog Entry 5 -->
+                <div class="col-md-4 wp4 delay-05s">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img
+                        src="img/noblog.png"
+                        class="grayscale"
+                        alt="Blog Item"
+                      /><!-- Blog Image -->
+                    </div>
+                  </div>
+                  <br />
+                  <h2>Blog 5</h2>
+                  <p>This is blog 5</p>
+                </div>
+                <!-- Blog Entry 6 -->
+                <div class="col-md-4 wp4 delay-1s">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img
+                        src="img/oblog.png"
+                        class="grayscale"
+                        alt="Blog Item"
+                      /><!-- Blog Image -->
+                    </div>
+                  </div>
+                  <br />
+                  <h2>Blog 6</h2>
+                  <!-- Headline -->
+                  <p>This is blog 6.</p>
+                  <!-- Description -->
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========================
+        BLOG SECTION END
+        =========================== -->
+
+    <!-- ==========================
+        words of appreciation SECTION 
+        =========================== -->
+    <div class="container-fluid">
+      <div class="row color-bg">
+        <!-- Left Image -->
+        <div class="col-md-6 nopadding features-intro-img wow fadeInLeft">
+          <div
+            class="about-image"
+            style="background-image: url(img/noappreciation.png)"
+          ></div>
+        </div>
+        <div class="col-md-6 nopadding about-text">
+          <h6>Words of Appreciation !</h6>
+          <div id="clientSlider">
+            <ul class="slides">
+              <li>
+                <p>
+                  These are words of appreciation. <br />
+                  <small>- its_shyam640</small>
+                </p>
+              </li>
+              <li>
+                <p>
+                  These are words of appreciation by second person.<br />
+                  <small>- its_shyam640</small>
+                </p>
+              </li>
+              <li>
+                <p>
+                  These are words of appreciation by third person.<br />
+                  <small>- its_shyam640</small>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==========================
+        Words of appreciation SECTION END
+        =========================== -->
+
+    <!-- ==========================
+        NEWSLETTER SECTION 
+        =========================== -->
+    <section>
+      <div class="container-fluid">
+        <div class="row color-bg">
+          <div class="col-md-6 nopadding subscribe text-center">
+            <h1>
+              <i class="fa fa-paper-plane"></i
+              ><span>Subscribe our Newsletter</span>
+            </h1>
+            <form action="index.html#">
+              <input
+                type="text"
+                name=""
+                value=""
+                placeholder=""
+                required
+              /><!-- E-Mail -->
+              <input type="submit" name="" value="Send" /><!-- Submit Button -->
+            </form>
+          </div>
+          <div class="col-md-6 nopadding features-intro-img">
+            <div
+              class="about-image"
+              style="background-image: url(img/logo.jpg)"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========================
+        NEWSLETTER SECTION END
+        =========================== -->
+
+    <!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+    <section class="text-center section-padding contact-wrap" id="contact">
+      <a href="index.html#top" class="up-btn"
+        ><i class="fa fa-chevron-up"></i
+      ></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="arrow">Drop <span>me</span> a line</h1>
+          </div>
+        </div>
+        <div class="row contact-details">
+          <div class="col-md-4">
+            <div class="dark-box box-hover">
+              <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
+              <p>E-7,Kushal Nagar,Gwalior,Madhya Pradesh,India</p>
+            </div>
+          </div>
+          <!-- Phone Number Box -->
+          <div class="col-md-4">
+            <div class="dark-box box-hover">
+              <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
+              <p>+91 88177 19155</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="dark-box box-hover">
+              <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+              <p>
+                <a href="index.html#" type="email"
+                  >shyamvashishtha640@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="googlemaps"></div>
+          </div>
+          <!-- Contact Form -->
+          <div class="col-md-6 contact">
+            <form role="form">
+              <!-- Name -->
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- E-Mail -->
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your name"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <!-- Phone Number -->
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email address"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Message Area -->
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  placeholder="Write you message here..."
+                  style="height: 232px"
+                ></textarea>
+              </div>
+              <!-- Subtmit Button -->
+              <button type="submit" class="btn btn-send">Send message</button>
+            </form>
+          </div>
+        </div>
+        <br />
+        <!-- Social Buttons - use font-awesome, past in what you want -->
+        <div class="social" id="connect">
+          <a class="btn github" href="https://github.com/shyam640">
+            <i class="fa fa-github"></i
+          ></a>
+          <a
+            class="btn linkedin"
+            href="https://www.linkedin.com/in/shyam-sundar-vashishtha-045871159/"
+          >
+            <i class="fa fa-linkedin"></i
+          ></a>
+          <a
+            class="btn instagram"
+            href="https://www.instagram.com/its_shyam640/"
+          >
+            <i class="fa fa-instagram"></i
+          ></a>
+          <a
+            class="btn facebook"
+            href="https://www.facebook.com/profile.php?id=100009227055942"
+          >
+            <i class="fa fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- ==========================
+        CONTACT SECTION END
+        =========================== -->
+
+    <!-- ==========================
+        FOOTER SECTION
+        =========================== -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              All Rights Reserved. &copy; 2021
+              <a href="https://www.google.com/search?q=its_shyam640"
+                >@its_shyam640</a
+              >
+            </p>
+            <p>
+              <span class="foot"><a href="index.html#about"> About</a></span>
+              <span class="foot"><a href="#">API</a></span>
+              <span class="foot"><a href="#">Privacy</a></span>
+              <span class="foot"><a href="#">FAQs</a></span>
+              <span class="foot"><a href="#">T&C</a></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ==========================
+        FOOTER SECTION END
+        =========================== -->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- SmoothScroll -->
+    <script
+      type="text/javascript"
+      src="assets/smoothscroll/smoothscroll.js"
+    ></script>
+    <!-- Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- classie.js -->
+    <script src="js/classie.js"></script>
+    <!-- FlexSlider -->
+    <script src="assets/flexslider/jquery.flexslider.js"></script>
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+    <!-- Text Rotator -->
+    <script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
+    <!-- Lightbox.js -->
+    <script src="assets/lightbox/js/lightbox.min.js"></script>
+    <!-- Google Maps -->
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"
+    ></script>
+    <!-- Theme JavaScript Core -->
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- GOOGLE MAPS DATA -->
+    <script type="text/javascript">
+      // When the window has finished loading create our google map below
+      google.maps.event.addDomListener(window, "load", init);
+
+      function init() {
+        // Basic options for a simple Google Map
+        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+        var mapOptions = {
+          // How zoomed in you want the map to start at (always required)
+          zoom: 15,
+
+          scrollwheel: true,
+
+          // The latitude and longitude to center the map (always required)
+          center: new google.maps.LatLng(26.218287, 78.182831), // Gwalior
+          styles: [
+            {
+              featureType: "water",
+              stylers: [{ color: "#F2F2F2" }, { visibility: "on" }],
+            },
+            { featureType: "landscape", stylers: [{ color: "#fdb07d" }] },
+            {
+              featureType: "road",
+              stylers: [{ saturation: -100 }, { lightness: 45 }],
+            },
+            {
+              featureType: "road.highway",
+              stylers: [{ visibility: "simplified" }],
+            },
+            {
+              featureType: "road.arterial",
+              elementType: "labels.icon",
+              stylers: [{ visibility: "on" }],
+            },
+            {
+              featureType: "administrative",
+              elementType: "labels.text.fill",
+              stylers: [{ color: "#000000" }],
+            },
+            { featureType: "transit", stylers: [{ visibility: "on" }] },
+            { featureType: "poi", stylers: [{ visibility: "on" }] },
+          ],
+        };
+
+        // Get the HTML DOM element that will contain your map
+        // We are using a div with id="map" seen below in the <body>
+        var mapElement = document.getElementById("googlemaps");
+
+        // Create the Google Map using out element and options defined above
+        var map = new google.maps.Map(mapElement, mapOptions);
+      }
+    </script>
+
+    <!-- TEXT ROTATOR SETTINGS -->
+    <script type="text/javascript">
+      $(".rotate").textrotator({
+        animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+        separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+        speed: 2000, // How many milliseconds until the next word show.
+      });
+    </script>
+  </body>
+</html>
