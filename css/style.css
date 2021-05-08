@@ -454,7 +454,7 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('..//img/imagepng.png') right bottom no-repeat;
+	background: url('..//favicon/android-chrome-512x512.png') right bottom no-repeat;
 	background-size: contain;
 	box-shadow: #353535 15px 0px 8px 0px;
 	padding:110px 0 100px 0;
