@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Shyam Sundar Vashishtha | Web Developer</title>
-   <meta property="og:title" content="Shyam Sundar Vashishtha (@its_shyam640) Portfolio">
-   <meta property="og:type" content="website">
-   <meta property="og:description"
-      content="Hi, This is Shyam(@its_shyam640) , a Goal oriented, focused computer science graduate with an eye for detail. With knowledge of programming language like C++ . Self-motivated computer science engineer with keen interest in coding.Inquisitive, energetic computer science specialist skilled in leadership, with a strong foundation in math, logic, and cross-platform coding.  ">
-   <meta name="keywords" content="shyam,shyamsundar, Shyam, Shyam Sundar,its_shyam,its_shyam640,shyam sundar vashishtha,Shyam Sundar Vashishtha,Shyam Vashishtha,shyam vashishtha"/>
-    <meta property="og:url" content="https://shyam640.github.io/MyPortfolio/">
-   <meta property="og:site_name" content="shyam640.github.io/MyPortfolio/">
-    <meta name="google-site-verification" content="6k1FB2BqfugtvUY2bOpPTpFz1dItMsW4OjdO3Crazpk" />
-   <meta name="image" property="og:image" content="img/6.jpg">
-   <meta name="author" content="Shyam Sundar Vashishtha">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shyam Sundar Vashishtha | Web Developer</title>
+    <meta
+      property="og:title"
+      content="Shyam Sundar Vashishtha (@its_shyam640) Portfolio"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Hi, This is Shyam(@its_shyam640) , a Goal oriented, focused computer science graduate with an eye for detail. With knowledge of programming language like C++ . Self-motivated computer science engineer with keen interest in coding.Inquisitive, energetic computer science specialist skilled in leadership, with a strong foundation in math, logic, and cross-platform coding.  "
+    />
+    <meta
+      name="keywords"
+      content="shyam,shyamsundar, Shyam, Shyam Sundar,its_shyam,its_shyam640,shyam sundar vashishtha,Shyam Sundar Vashishtha,Shyam Vashishtha,shyam vashishtha"
+    />
+    <meta property="og:url" content="https://shyam640/Portfolio/" />
+    <meta property="og:site_name" content="itsShyam640/MyPortfolio" />
+    <meta
+      name="google-site-verification"
+      content="6k1FB2BqfugtvUY2bOpPTpFz1dItMsW4OjdO3Crazpk"
+    />
+    <meta name="image" property="og:image" content="img/6.jpg" />
+    <meta name="author" content="Shyam Sundar Vashishtha" />
     <!-- Bootstrap -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Font-Awesome -->
@@ -33,8 +44,8 @@
     <!-- Animations -->
     <link href="css/animate.css" rel="stylesheet" />
     <!-- Custom Favicon -->
-    <link rel="icon" href="img/imagepng.png"/>
-    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="icon" href="img/imagepng.png" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
 
     <style>
       .name {
@@ -139,7 +150,7 @@
                 <a href="index.html#about"
                   ><i class="fa fa-fw fa-quote-left"></i><span>About</span></a
                 >
-                <a href="index.html#service"
+                <a href="index.html#skills"
                   ><i class="fa fa-fw fa-globe"></i><span>Skills</span></a
                 >
                 <a href="index.html#Projects"
@@ -214,18 +225,26 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 wp1">
             <h1 class="arrow">Who I am ? <span>what I am</span> ?</h1>
+
+          <!-- 
+            Here below we have used target=_blank which opens the link in new tab.
+            Issues with opening in new tab:
+            As you open the link in new tab, you give partial access to windown.opener object via javascript which allows the page to access the change of window.opener.location of your page and allows page to open up potentially malware page which could harm.
+            So to avoid that we add rel="noopener" but firefox doesn't support it for now, so rel = "noopener noreferrer" for maximum effect.
+             -->
+
             <p>
               Hey! This is Shyam (<a
                 href="https://www.instagram.com/its_shyam640/"
-                >@its_shyam640</a
+                target="_blank" rel="noopener noreferrer">@its_shyam640</a
               >) and I'm currently pursuing my B.Tech in computer science from
-              <a href="https://www.lpu.in/">LPU</a> . I am a detail-oriented
+              <a href="https://www.lpu.in/" target="_blank" rel="noopener noreffer">LPU</a> . I am a detail-oriented
               person and can juggle between tasks. I love to read about new
               techs and technological books in my spare time. I'm also a part of
               the college student organisation
-              <a href="https://noobarmy.org/">NoobArmy</a> as an frontend
-              developer and content writer. I did a ___________ internship at
-              __________ , and I realised that the field quite made me learn
+              <a href="https://noobarmy.org/" target="_blank" rel="noopener noreffer">NoobArmy</a> as an frontend
+              developer and content writer. I did a content writing internship at
+              <a href="https://seomantra.pro" target="_blank" rel="noopener noreffer">SEOMantra.Pro</a> , and I realised that the field quite made me learn
               many things. I have always wanted to work with a startup owing to
               the learning opportunities it offers, and I believe I can bring my
               skills on the table for my future positions.
@@ -235,7 +254,7 @@
       </div>
     </section>
 
-    <section class="features text-center section-padding" id="service">
+    <section class="features text-center section-padding" id="skills">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -247,12 +266,12 @@
             <div class="skills">
               <div class="col-md-4 wp2 item">
                 <div class="icon">
-                  <img src="img/cplusplus.png" />
+                  <a href="https://www.cplusplus.com/" target="_blank" rel="noopener noreferrer"><img src="img/cplusplus.png" loading="lazy"/></a>
                 </div>
               </div>
               <div class="col-md-4 wp2 item delay-02s">
                 <div class="icon">
-                  <img src="img/javascript.png" />
+                  <a href="https://www.javacript.com/" target="_blank" rel="noopener noreferrer"><img src="img/javascript.png" /></a>
                 </div>
               </div>
               <div class="col-md-4 wp2 item delay-04s">
@@ -272,7 +291,7 @@
               </div>
               <div class="col-md-4 wp2 item delay-10s">
                 <div class="icon">
-                  <img src=" " />
+                  <img src="img/noimage.jpg" />
                 </div>
               </div>
             </div>
@@ -334,7 +353,7 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="skills" style="display: flexbox;">
+            <div class="skills" style="display: flexbox">
               <div class="col-md-4 wp2 item">
                 <div class="icon">
                   <img src="img/android-studio.png" />
@@ -377,7 +396,8 @@
           </p>
           <br />
           <a
-            href="https://github.com/shyam640/shyam640.github.io" target="_blank"
+            href="https://github.com/shyam640/shyam640.github.io"
+            target="_blank"
             class="weight-outline-btn"
             >Get Source Code</a
           >
@@ -396,7 +416,8 @@
           </p>
           <br />
           <a
-            href="https://github.com/shyam640/JSLearning" target="_blank"
+            href="https://github.com/shyam640/JSLearning"
+            target="_blank"
             class="weight-outline-btn"
             >Read more</a
           >
@@ -416,7 +437,9 @@
           <!-- Headline-->
           <p>This Project will be added soon !</p>
           <br />
-          <a href="index.html#team" target="_blank" class="weight-outline-btn">Read more</a>
+          <a href="index.html#team" target="_blank" class="weight-outline-btn"
+            >Read more</a
+          >
         </div>
       </div>
     </div>
@@ -445,7 +468,10 @@
                 href="img/noprojectmobile.png"
                 data-lightbox="project"
                 title="Project One - This is project 1"
-                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+                ><img
+                  class="grayscale"
+                  src="img/noprojectmobile.png"
+                  alt="Projects Item"
               /></a>
             </div>
           </div>
@@ -460,7 +486,10 @@
                 href="img/noprojectmobile.png"
                 data-lightbox="project"
                 title="Project Two - This is project two"
-                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+                ><img
+                  class="grayscale"
+                  src="img/noprojectmobile.png"
+                  alt="Projects Item"
               /></a>
             </div>
           </div>
@@ -475,7 +504,10 @@
                 href="img/noprojectmobile.png"
                 data-lightbox="project"
                 title="Project Three - This is project three"
-                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+                ><img
+                  class="grayscale"
+                  src="img/noprojectmobile.png"
+                  alt="Projects Item"
               /></a>
             </div>
           </div>
@@ -490,7 +522,10 @@
                 href="img/noprojectmobile.png"
                 data-lightbox="project"
                 title="Project Four - This is project 4"
-                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+                ><img
+                  class="grayscale"
+                  src="img/noprojectmobile.png"
+                  alt="Projects Item"
               /></a>
             </div>
           </div>
@@ -505,7 +540,10 @@
                 href="img/noprojectmobile.png"
                 data-lightbox="project"
                 title="Project Five - This is project 5"
-                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+                ><img
+                  class="grayscale"
+                  src="img/noprojectmobile.png"
+                  alt="Projects Item"
               /></a>
             </div>
           </div>
@@ -520,7 +558,10 @@
                 href="img/noprojectmobile.png"
                 data-lightbox="project"
                 title="Project Six - This is project six"
-                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+                ><img
+                  class="grayscale"
+                  src="img/noprojectmobile.png"
+                  alt="Projects Item"
               /></a>
             </div>
           </div>
@@ -535,7 +576,10 @@
                 href="img/noprojectmobile.png"
                 data-lightbox="project"
                 title="Project Seven - This is project seven"
-                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+                ><img
+                  class="grayscale"
+                  src="img/noprojectmobile.png"
+                  alt="Projects Item"
               /></a>
             </div>
           </div>
@@ -550,7 +594,10 @@
                 href="img/noprojectmobile.png"
                 data-lightbox="project"
                 title="Project Eight - This is project eight"
-                ><img class="grayscale" src="img/noprojectmobile.png" alt="Projects Item"
+                ><img
+                  class="grayscale"
+                  src="img/noprojectmobile.png"
+                  alt="Projects Item"
               /></a>
             </div>
           </div>
@@ -571,7 +618,12 @@
         <div class="row">
           <span class="col-md-12">
             <a href="index.html#contact" class="outline-btn">hire shyam</a>
-            <a href="https://drive.google.com/drive/folders/1z6U5co6b3yHJWyH4i1VCiCTK_8FlGGHV?usp=sharing" target="_blank" class="outline-btn">Download Resume</a>
+            <a
+              href="https://drive.google.com/drive/folders/1z6U5co6b3yHJWyH4i1VCiCTK_8FlGGHV?usp=sharing"
+              target="_blank"
+              class="outline-btn"
+              >Download Resume</a
+            >
           </span>
         </div>
       </div>
@@ -688,7 +740,7 @@
                   <div class="overlay-effect effects clearfix">
                     <div class="img">
                       <img
-                        src="img/oblog.png"
+                        src="img/noblog.png"
                         class="grayscale"
                         alt="Blog Item"
                       /><!-- Blog Image -->
